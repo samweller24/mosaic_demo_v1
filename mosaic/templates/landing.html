@@ -5,10 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mosaic</title>
-    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-	<h1>Mosaic</h1>
+  <body style="background: #EFEFEF;">
+        <ellipse
+        style="position: absolute;
+        width: 481px;
+        height: 481px;
+        left: -244px;
+        top: -45px;
+        background: #CC78F0;
+        filter: blur(137px);" 
+    />
+    <ellipse
+        style="position: absolute;
+        width: 481px;
+        height: 481px;
+        left: -86px;
+        top: -207px;
+        background: #5D91F0;
+        filter: blur(137px);" 
+    />
+    <ellipse
+        style="position: absolute;
+        width: 481px;
+        height: 481px;
+        left: -86px;
+        top: -207px;
+        background: #5D91F0;
+        filter: blur(137px);" 
+    />
+	<h1> Mosaic</h1>
     <a href = "{% url 'mosaicAdmin' %}"> Institutional </a>
     <a href = "{% url 'mosaicUser' %}"> Individual </a>
   </body>
