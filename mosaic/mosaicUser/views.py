@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Mosaic User")
+    return render(request,'userLanding.html', {})

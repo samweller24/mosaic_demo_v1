@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def index(request):
-    return render(request,'mosaicLanding.html', {})
+    return render(request,'signUp.html', {})

@@ -20,5 +20,6 @@ urlpatterns = [
     path('', include('landingPage.urls')),
     path('mosaicUser/', include('mosaicUser.urls')),
     path('mosaicAdmin/', include('mosaicAdmin.urls')),
+    path('signUp/', include('signup.urls')),
     path('admin/', admin.site.urls),
 ]

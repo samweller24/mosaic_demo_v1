@@ -1,0 +1,16 @@
+.landing-title {
+    position: absolute;
+    width: 532px;
+    height: 95px;
+    left: 96px;
+    top: 105px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 80px;
+    /* or 121% */
+
+    color: #000000;
+}
