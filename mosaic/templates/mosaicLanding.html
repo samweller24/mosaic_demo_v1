@@ -13,23 +13,28 @@
     </head>
     <body style="background: #efefef">
       <div class="container-fluid ">
-        <ul class="nav justify-content-center mt-4">
-          <li class="nav-item">
-            <a style="color: black;" class="nav-link active" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a style="color: black;" class="nav-link" href="#">Solutions</a>
-          </li>
-          <li class="nav-item">
-            <a style="color: black;" class="nav-link" href="#">Resources</a>
-          </li>
-          <li class="nav-item">
-            <a style="color: black;" class="nav-link" href="#">Partners</a>
-          </li>
-          <li class="nav-item ">
-            <a style="color: black;" class="nav-link" href="#">About Us</a>
-          </li>
-        </ul>
+        <div style="display:flex; flex-direction: row; justify-content: center;">
+          <ul class="nav justify-content-center mt-4">
+            <li class="nav-item">
+              <a style="color: black;" class="nav-link active" href="{% url 'landing' %}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: black;" class="nav-link" href="#">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: black;" class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: black;" class="nav-link" href="#">Partners</a>
+            </li>
+            <li class="nav-item ">
+              <a style="color: black;" class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+          <a href="{% url 'signUp' %}">
+            <button style=" margin-left: 450px; margin-top:20px; position: absolute; width: 116px; height: 52px; background-color: #000000; font-size: 17px; color:white; border-style: none;">Sign Up</button>
+          </a>
+        </div>
 
         <div class="row">
           <div class="col-sm-5"><div class="row"><p style=" margin-left: 120px; margin-top: 220px; font-family: 'Titillium Web'; font-style: normal; font-weight: 700; font-size: 16px; line-height: 24px; display: flex; align-items: flex-end; color: #17171f">
