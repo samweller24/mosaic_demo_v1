@@ -1,0 +1,36 @@
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-primary {
+    color: #fff;
+    background-color: white !important ;
+    border: 1px solid rgba(74, 131, 231, 0.4) !important; /*set the color you want here*/
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    color: #fff;
+    background: linear-gradient(90deg, #4a83e7 13.02%, rgba(204, 120, 240, 0.76) 100%) !important;
+    border: 1px solid rgba(74, 131, 231, 0.4) !important; /*set the color you want here*/
+}
+
+.form-label {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #60606a;
+}
+
+.form-input {
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: 1px solid;
+    border-bottom-color: rgb(174, 175, 174);
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 600;
+}
