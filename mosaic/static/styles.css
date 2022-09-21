@@ -2,7 +2,8 @@
 .btn-primary {
     color: #fff;
     background-color: white !important ;
-    border: 1px solid rgba(74, 131, 231, 0.4) !important; /*set the color you want here*/
+    border: 1px solid #4a83e7 !important; /*set the color you want here*/
+    font-size: 27px;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -10,7 +11,7 @@
 .btn-primary.active {
     color: #fff;
     background: linear-gradient(90deg, #4a83e7 13.02%, rgba(204, 120, 240, 0.76) 100%) !important;
-    border: 1px solid rgba(74, 131, 231, 0.4) !important; /*set the color you want here*/
+    border: none !important; /*set the color you want here*/
 }
 
 .form-label {
